@@ -1,469 +1,94 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html class="ie8" lang="en"> <![endif]-->
-<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!-->
 <html lang="en">
-<!--<![endif]-->
-  
-<!-- codestarssummit.com/Event/2014fall 15:59:03))T -->
-<!--  --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- / -->
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>CodeStars Summit</title>
-    <script>
-      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-    </script>
-
-    <!--[if lt IE 9]>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
-    <![endif]-->
-   
-
-
-      
-      <link href="images/site-cssc-relative.css" rel="stylesheet" />
-    
-
-    <script src="images/jquery-1.10.1.min.js"></script>
-    <script src="images/jquery-migrate-1.2.1.min.js"></script>
-    <!--[if lt IE 9]>
-        <script src="/Content/JavaScript/html5shiv-printshiv.min.js"></script>
-    <![endif]-->
-  </head>
-
-<body class="cssc-page">
-
-<div class="layoutWrapper">
-
-    <header class="pageHeader">
-
-        <a href="index.html#" class="siteLogo">Code Stars Summit<span class="ir"></span></a>
-        <span class="eventDate">OCTOBER 9-10 2014 <br/>, </span>
-        
-        <ul class="socialMedia">
-            <li><a class="fb" target="" href="http://www.facebook.com/group.php?gid=6125701762">FaceBook</a></li>
-            <li><a class="tw" target='_new' href="http://twitter.com/sv_code_camp">Twitter</a></li>
-            <li><a class="yt" target='_new' href="http://www.youtube.com/results?search_query=silicon+valley+code+camp&amp;sm=3">YouTube</a></li>
-            <li><a class="gplus" target='_new' href="https://plus.google.com/110656351842726857531?prsrc=3">Google+</a></li>
-            <li><a class="in" target='_new' href="http://www.linkedin.com/groups?gid=976557&amp;trk=myg_ugrp_ovr">LinkedIn</a></li>
-        </ul>
-
-        <div class="menuUserBar">
-
-
-<div class="menuWrap">
-    <ul class="menuList">
-
-            <li class="menuListItem pricing">
-                <a href="pricing.html">Price & Registration</a>
-                
-
-            </li>
-
-
-
-
-
-
-
-            <li class="menuListItem jobs">
-                <a class="menuItemLink" href="sponsor.html">Sponsors</a>
-            </li>
-
-        
-
-
-
-
-            <li class="menuListItem about">
-                <a href="#" class="menuItemLink" aria-haspopup="true">About</a>
-                <ul class="menuSubList">
-
-
-                    <li>
-                        <a href="pastevents.html#">Past Events</a>
-                    </li>
-
-                    <li>
-                        <a href="faq.html#">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="codestarssummitterms.html#">Terms Of Service</a>
-                    </li>
-
-
-                </ul>
-
-
-
-
-            </li>
-    </ul>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Code Stars Summit</title>
+<meta name="description" content="Code Stars Summit was a series of all-day workshops from top Silicon Valley Code Camp instructors. This site is an archive of those events.">
+<meta name="theme-color" content="#07080f">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
+<link rel="stylesheet" href="assets/cs.css">
+<script src="assets/cs.js" defer></script>
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top" id="top"><div class="wrap">
+  <a class="logo" href="index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l3 8.2L24 12l-9 3.8L12 24l-3-8.2L0 12l9-3.8z"/></svg>Code Stars Summit</a>
+  <nav aria-label="Main">
+    <a href="index.html">Home</a>
+    <div class="dd"><button type="button" aria-haspopup="true" aria-expanded="false">About ▾</button>
+      <div class="menu"><a href="pastevents.html">Past Events</a><a href="faq.html">FAQ</a><a href="codestarssummitterms.html">Terms Of Service</a></div></div>
+  </nav>
+</div></header>
+<main id="main">
+<div class="hero">
+  <div class="aurora"></div><div class="aurora b"></div><canvas id="stars" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <span class="badge mono"><i></i>Archive · OCTOBER 9-10 2014</span>
+    <h1 class="wide"><span class="ln"><span>Learn from the</span></span><span class="ln"><span><em>stars</em> of Code Camp.</span></span></h1>
+    <p class="lead">All-day workshops led by top instructors from Silicon Valley Code Camp. Leave with applicable knowledge to build real applications, not just an idea of the new technology.</p>
+    <div class="facts"><div><b>7</b><span class="mono">Workshops</span></div><div><b>9</b><span class="mono">Instructors</span></div></div>
+    <div class="btns"><a class="btn pri" href="#presenters">Browse the workshops</a><a class="btn" href="pastevents.html">Past events</a></div>
+  </div>
 </div>
-
-        </div>
-
-    </header>
-
-    
-
-<div class="presentersLoading">The page is loading&hellip;</div>
-
-
-
-<div id="home-page">
-
-    <section class="stripe">
-        <div class="content">
-            <h2>About Code Stars Summit</h2>
-            <p>Code Stars Summit is built on top of Silicon Valley Code Camp,
+<section><div class="wrap about">
+  <div class="rv"><h2 style="font-size:clamp(28px,3.6vw,44px);margin-bottom:18px">About Code Stars Summit</h2><p>Code Stars Summit is built on top of Silicon Valley Code Camp,
                 the premier free conference of sessions in the world now going on its 9th year.
-                Code Stars Summit, unlike Code Camp are all day attendee paid workshops led primarily by top instructors
+                Code Stars Summit, unlike Code Camp are all-day workshops led primarily by top instructors
                 from code camp and others of equal stature. Expect after coming to this event to not just have an idea about the new technology taught,
-                but to leave the dedicated instruction with the right applicable knowledge to build applications.</p>
-        </div>
-        <aside class="side">
-            <div class="sideImageBox">
-                <a href="http://www.siliconvalley-codecamp.com/"><img src='images/svcc-promo-mobile.jpg' class="responsive" alt="SVCC"></a>
-            </div>
-        </aside>
-    </section>
-
-
-
-        <section class="presenters">
-
-
-            <div class="ribbon">
-                <div class="inner">
-                    <h2>Star <strong>Presenters</strong>
-                    </h2>
-                    <form class="presentersSearch">
-                        <input type="text" name="presenterName" placeholder="Search"/>
-                        <input type="image" src='images/btn_search.png' value="Search"/>
-                    </form>
-                </div>
-            </div>
-
-
-
-
-            <div class="presentersList">
-                <ul class="presentersCarousel">
-                            <li class="presenter">
-                                <div class="namesWrapper">
-                                    <ul class="names">
-                                            <li>
-
-                                                <img alt="img" src="images/20170609222929-28672bf1.jpg"/>
-                                                <h3>Massimo Paolini</h3>
-                                            </li>
-                                            <li>
-
-                                                <img alt="img" src="images/20170609222928-79972bf1.jpg"/>
-                                                <h3>Alyson Harrold</h3>
-                                            </li>
-                                    </ul>
-                                </div>
-                                <div class="description">
-                                    <h3>SEO Bootcamp 2-Day Workshop</h3>
-                                    .<p>A business’ visibility is won in the trenches. Unlike Search Engine Marketing (which relies upon paid advertising aka expensive artillery), SEO is an organic and more targeted process that relies upon technical infrastructure and purposeful content. In this two-day workshop, participants will learn SEO strategy and how to apply it on the SERP (Search Engine Results Page) battlefield.</p>
-                                </div>
-                                <div class="more">
-
-                                    <a href="seo-bootcamp-2-day-workshop.html">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="seo-bootcamp-2-day-workshop-2.html">Register</a>
-                                </div>
-                            </li>
-                            <li class="presenter">
-                                <div class="namesWrapper">
-                                    <ul class="names">
-                                            <li>
-
-                                                <img alt="img" src="images/20140814193146-188022bf1.jpg"/>
-                                                <h3>Gordon Zhu</h3>
-                                            </li>
-                                    </ul>
-                                </div>
-                                <div class="description">
-                                    <h3>AngularJS in 2-Days (Workshop)</h3>
-                                    In this 2 day workshop, I’ll take you through the core pieces of AngularJS as we build a full product from the ground 
-
-up. We’ll build on important Angular concepts one by one as we develop features for a real application that you’ll 
-
-actually launch on your second day.
-                                </div>
-                                <div class="more">
-
-                                    <a href="angularjs-in-2-days-workshop.html">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="angularjs-in-2-days-workshop-2.html">Register</a>
-                                </div>
-                            </li>
-                            <li class="presenter">
-                                <div class="namesWrapper">
-                                    <ul class="names">
-                                            <li>
-
-                                                <img alt="img" src="images/20140902212302-111062bf1.jpg"/>
-                                                <h3>Michael Caisse</h3>
-                                            </li>
-                                    </ul>
-                                </div>
-                                <div class="description">
-                                    <h3>C++11 Bootstrap</h3>
-                                      <p>C++11 wasn't just a new standard release, it has been described by many as a new language!</p>
-<p>This two-day bootstrap course will get you up-to-speed with the core language and standard library changes you are most likely to
-employ in your daily work. We will explore the new features through examples and hand-on exercises while discussing practical
-uses and gotchas.</p>
-
-                                </div>
-                                <div class="more">
-
-                                    <a href="c11-bootstrap.html">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="c11-bootstrap-2.html">Register</a>
-                                </div>
-                            </li>
-                            <li class="presenter">
-                                <div class="namesWrapper">
-                                    <ul class="names">
-                                            <li>
-
-                                                <img alt="img" src="images/20140921161843-214082bf1.jpg"/>
-                                                <h3>Lak Sri</h3>
-                                            </li>
-                                    </ul>
-                                </div>
-                                <div class="description">
-                                    <h3>Develop in Nodejs, MongoDB, and more inside  IBM&#39;s Bluemix Cloud Platform</h3>
-                                    In this 1 day hands on workshop, you will learn how easily it is to both build from scratch as well as take an existing web application and move it to the new IBM Bluemix open-standards cloud based platform. 
-Get hands-on experience working with Ruby, Nodejs, MongoDB, CloudantDB, and more to build, manage and run applications of all types (web, mobile, big data analytics, and new smart devices). You'll learn the advantages of the IBM Bluemix cloud development platform which include Java, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source — all through an as-a-service model in the cloud. " 
-                                </div>
-                                <div class="more">
-
-                                    <a href="develop-in-nodejs-mongodb-and-more-inside-ibms-bluemix-cloud-platform.html">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="develop-in-nodejs-mongodb-and-more-inside-ibms-bluemix-cloud-platform-2.html">Register</a>
-                                </div>
-                            </li>
-                            <li class="presenter">
-                                <div class="namesWrapper">
-                                    <ul class="names">
-                                            <li>
-
-                                                <img alt="img" src="images/20130904014655-64442bf1.jpg"/>
-                                                <h3>Luca Candela</h3>
-                                            </li>
-                                    </ul>
-                                </div>
-                                <div class="description">
-                                    <h3>Practical product management for new product development</h3>
-                                    During this one-day course you'll learn about how to understand your users and analyze the market to build a product that is both desirable and viable, create a roadmap and effectively manage communication with all stakeholders and how to develop metrics to measure your success and make sound product decisions.
-                                </div>
-                                <div class="more">
-
-                                    <a href="practical-product-management-for-new-product-development.html">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="practical-product-management-for-new-product-development-2.html">Register</a>
-                                </div>
-                            </li>
-                            <li class="presenter">
-                                <div class="namesWrapper">
-                                    <ul class="names">
-                                            <li>
-
-                                                <img alt="img" src="images/20170526222329-29202bf1.jpg"/>
-                                                <h3>Ron Lichty</h3>
-                                            </li>
-                                            <li>
-
-                                                <img alt="img" src="images/20180821223136-188052bf1.jpg"/>
-                                                <h3>Mickey W. Mantle</h3>
-                                            </li>
-                                    </ul>
-                                </div>
-                                <div class="description">
-                                    <h3>Managing the Unmanageable 1-Day Workshop</h3>
-                                    A 1 day workshop that will give you the tools, insights, and confidence to manage programmers and programming teams effectively.
-                                </div>
-                                <div class="more">
-
-                                    <a href="managing-the-unmanageable-1-day-workshop.html">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="managing-the-unmanageable-1-day-workshop-2.html">Register</a>
-                                </div>
-                            </li>
-                            <li class="presenter">
-                                <div class="namesWrapper">
-                                    <ul class="names">
-                                            <li>
-
-                                                <img alt="img" src="images/20140817015647-198242bf1.jpg"/>
-                                                <h3>Steve Drucker</h3>
-                                            </li>
-                                    </ul>
-                                </div>
-                                <div class="description">
-                                    <h3>Node.JS Fundamentals 1-Day Workshop</h3>
-                                    During this one-day course you'll learn about how to get NodeJS up and running. You'll review how to respond to http and websocket requests as well as query data from popular databases (mySQL, MongoDB, CouchDB) while using Jade templates to output dynamically constructed markup.
-                                </div>
-                                <div class="more">
-
-                                    <a href="nodejs-fundamentals-1-day-workshop.html">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="nodejs-fundamentals-1-day-workshop-2.html">Register</a>
-                                </div>
-                            </li>
-                </ul>
-                <div class="unusedSlides"></div>
-            </div>
-
-
-        </section>
-
-
-    <section class="stripe">
-        <div class="content">
-            <h3 class="main">What are the workshop topics?</h3>
-            <p>Topics are selected based on what people are most attracted to at Silicon Valley Code Camp.
+                but to leave the dedicated instruction with the right applicable knowledge to build applications.</p></div>
+  <figure class="rv" style="--i:2"><a href="http://www.siliconvalley-codecamp.com/" target="_blank" rel="noopener"><img src="images/svcc-promo-mobile.jpg" alt="Silicon Valley Code Camp" loading="lazy"></a></figure>
+</div></section>
+<section id="presenters" style="padding-top:0"><div class="wrap">
+  <div class="sec-head rv"><h2>Star <em>Presenters</em></h2>
+    <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" type="search" placeholder="Search presenters or topics" aria-label="Search presenters or topics"></label></div>
+  <div class="grid" id="grid">
+<a class="card rv" href="seo-bootcamp-2-day-workshop.html" data-q="massimo paolini alyson harrold seo bootcamp 2-day workshop . a business’ visibility is won in the trenches. unlike search engine marketing (which relies upon paid advertising aka expensive artillery), seo is an organic and more targeted process that relies upon technical infrastructure and purposeful content. in this two-day workshop, participants will learn seo strategy and how to apply it on the serp (search engine results page) battlefield." style="--i:0">
+  <div class="people"><div class="faces" style="view-transition-name:f-seo-bootcamp-2-day-workshop"><img src="images/20170609222929-28672bf1.jpg" alt="Massimo Paolini" width="58" height="58" loading="lazy"><img src="images/20170609222928-79972bf1.jpg" alt="Alyson Harrold" width="58" height="58" loading="lazy"></div><span>Massimo Paolini &amp; Alyson Harrold</span></div>
+  <h3 style="view-transition-name:t-seo-bootcamp-2-day-workshop">SEO Bootcamp 2-Day Workshop</h3><p>. A business’ visibility is won in the trenches. Unlike Search Engine Marketing (which relies upon paid advertising aka expensive artillery), SEO is an organic and more targeted process that relies upon technical infrastructure and purposeful content. In this two-day workshop, participants will learn SEO strategy and how to apply it on the SERP (Search Engine Results Page) battlefield.</p>
+  <div class="go"><b>Read more</b></div></a>
+<a class="card rv" href="angularjs-in-2-days-workshop.html" data-q="gordon zhu angularjs in 2-days (workshop) in this 2 day workshop, i’ll take you through the core pieces of angularjs as we build a full product from the ground up. we’ll build on important angular concepts one by one as we develop features for a real application that you’ll actually launch on your second day." style="--i:1">
+  <div class="people"><div class="faces" style="view-transition-name:f-angularjs-in-2-days-workshop"><img src="images/20140814193146-188022bf1.jpg" alt="Gordon Zhu" width="58" height="58" loading="lazy"></div><span>Gordon Zhu</span></div>
+  <h3 style="view-transition-name:t-angularjs-in-2-days-workshop">AngularJS in 2-Days (Workshop)</h3><p>In this 2 day workshop, I’ll take you through the core pieces of AngularJS as we build a full product from the ground up. We’ll build on important Angular concepts one by one as we develop features for a real application that you’ll actually launch on your second day.</p>
+  <div class="go"><b>Read more</b></div></a>
+<a class="card rv" href="c11-bootstrap.html" data-q="michael caisse c++11 bootstrap c++11 wasn&#x27;t just a new standard release, it has been described by many as a new language! this two-day bootstrap course will get you up-to-speed with the core language and standard library changes you are most likely to employ in your daily work. we will explore the new features through examples and hand-on exercises while discussing practical uses and gotchas." style="--i:2">
+  <div class="people"><div class="faces" style="view-transition-name:f-c11-bootstrap"><img src="images/20140902212302-111062bf1.jpg" alt="Michael Caisse" width="58" height="58" loading="lazy"></div><span>Michael Caisse</span></div>
+  <h3 style="view-transition-name:t-c11-bootstrap">C++11 Bootstrap</h3><p>C++11 wasn&#x27;t just a new standard release, it has been described by many as a new language! This two-day bootstrap course will get you up-to-speed with the core language and standard library changes you are most likely to employ in your daily work. We will explore the new features through examples and hand-on exercises while discussing practical uses and gotchas.</p>
+  <div class="go"><b>Read more</b></div></a>
+<a class="card rv" href="develop-in-nodejs-mongodb-and-more-inside-ibms-bluemix-cloud-platform.html" data-q="lak sri develop in nodejs, mongodb, and more inside ibm&#x27;s bluemix cloud platform in this 1 day hands on workshop, you will learn how easily it is to both build from scratch as well as take an existing web application and move it to the new ibm bluemix open-standards cloud based platform. get hands-on experience working with ruby, nodejs, mongodb, cloudantdb, and more to build, manage and run applications of all types (web, mobile, big data analytics, and new smart devices). you&#x27;ll learn the advantages of the ibm bluemix cloud development platform which include java, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source — all through an as-a-service model in the cloud. &quot;" style="--i:0">
+  <div class="people"><div class="faces" style="view-transition-name:f-develop-in-nodejs-mongodb-and-more-inside-ibms-bluemix-cloud-platform"><img src="images/20140921161843-214082bf1.jpg" alt="Lak Sri" width="58" height="58" loading="lazy"></div><span>Lak Sri</span></div>
+  <h3 style="view-transition-name:t-develop-in-nodejs-mongodb-and-more-inside-ibms-bluemix-cloud-platform">Develop in Nodejs, MongoDB, and more inside IBM&#x27;s Bluemix Cloud Platform</h3><p>In this 1 day hands on workshop, you will learn how easily it is to both build from scratch as well as take an existing web application and move it to the new IBM Bluemix open-standards cloud based platform. Get hands-on experience working with Ruby, Nodejs, MongoDB, CloudantDB, and more to build, manage and run applications of all types (web, mobile, big data analytics, and new smart devices). You&#x27;ll learn the advantages of the IBM Bluemix cloud development platform which include Java, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source — all through an as-a-service model in the cloud. &quot;</p>
+  <div class="go"><b>Read more</b></div></a>
+<a class="card rv" href="practical-product-management-for-new-product-development.html" data-q="luca candela practical product management for new product development during this one-day course you&#x27;ll learn about how to understand your users and analyze the market to build a product that is both desirable and viable, create a roadmap and effectively manage communication with all stakeholders and how to develop metrics to measure your success and make sound product decisions." style="--i:1">
+  <div class="people"><div class="faces" style="view-transition-name:f-practical-product-management-for-new-product-development"><img src="images/20130904014655-64442bf1.jpg" alt="Luca Candela" width="58" height="58" loading="lazy"></div><span>Luca Candela</span></div>
+  <h3 style="view-transition-name:t-practical-product-management-for-new-product-development">Practical product management for new product development</h3><p>During this one-day course you&#x27;ll learn about how to understand your users and analyze the market to build a product that is both desirable and viable, create a roadmap and effectively manage communication with all stakeholders and how to develop metrics to measure your success and make sound product decisions.</p>
+  <div class="go"><b>Read more</b></div></a>
+<a class="card rv" href="managing-the-unmanageable-1-day-workshop.html" data-q="ron lichty mickey w. mantle managing the unmanageable 1-day workshop a 1 day workshop that will give you the tools, insights, and confidence to manage programmers and programming teams effectively." style="--i:2">
+  <div class="people"><div class="faces" style="view-transition-name:f-managing-the-unmanageable-1-day-workshop"><img src="images/20170526222329-29202bf1.jpg" alt="Ron Lichty" width="58" height="58" loading="lazy"><img src="images/20180821223136-188052bf1.jpg" alt="Mickey W. Mantle" width="58" height="58" loading="lazy"></div><span>Ron Lichty &amp; Mickey W. Mantle</span></div>
+  <h3 style="view-transition-name:t-managing-the-unmanageable-1-day-workshop">Managing the Unmanageable 1-Day Workshop</h3><p>A 1 day workshop that will give you the tools, insights, and confidence to manage programmers and programming teams effectively.</p>
+  <div class="go"><b>Read more</b></div></a>
+<a class="card rv" href="nodejs-fundamentals-1-day-workshop.html" data-q="steve drucker node.js fundamentals 1-day workshop during this one-day course you&#x27;ll learn about how to get nodejs up and running. you&#x27;ll review how to respond to http and websocket requests as well as query data from popular databases (mysql, mongodb, couchdb) while using jade templates to output dynamically constructed markup." style="--i:0">
+  <div class="people"><div class="faces" style="view-transition-name:f-nodejs-fundamentals-1-day-workshop"><img src="images/20140817015647-198242bf1.jpg" alt="Steve Drucker" width="58" height="58" loading="lazy"></div><span>Steve Drucker</span></div>
+  <h3 style="view-transition-name:t-nodejs-fundamentals-1-day-workshop">Node.JS Fundamentals 1-Day Workshop</h3><p>During this one-day course you&#x27;ll learn about how to get NodeJS up and running. You&#x27;ll review how to respond to http and websocket requests as well as query data from popular databases (mySQL, MongoDB, CouchDB) while using Jade templates to output dynamically constructed markup.</p>
+  <div class="go"><b>Read more</b></div></a>
+  </div>
+  <p class="empty" id="empty">No workshops match that search.</p>
+</div></section>
+<section><div class="wrap venue"><div class="qa"><div class="rv" style="--i:0"><h3>What are the workshop topics?</h3><p>Topics are selected based on what people are most attracted to at Silicon Valley Code Camp.
                 Expect that most workshops will be lead by top Silicon Valley Code Camp speakers.
-                Each of the workshops (either one or more days long) will be of limited size (typically 25 to 45 students per track).
-            </p>
-
-
-            
-
-
-
-            <h3>How much will it cost me to attend?</h3>
-            <p>Expect to pay less than what you would pay at a professional training company. Our focus here is to provide top quality,
-                focussed education from top Code Stars.
-            </p>
-
-            <h3>Where is the current Code Stars Summit Being Held?</h3>
-            <p>
-
-                <strong></strong> <br/>
-                <br/>
+                Each of the workshops (either one or more days long) will be of limited size (typically 25 to 45 students per track).</p></div><div class="rv" style="--i:1"><h3>Where was Code Stars Summit held?</h3><p><br/>
+<br/>
                 ,  <br/>
-                <br/>
-
-
-            </p>
-
-        </div>
-        <aside class="side">
-            <div class="sidePhotoPromo">
-                
-                <img src='images/crockfordteaching2013ff0d.jpg'/>
-                <p>“The Best From Silicon Valley<br/>Code Camp”
-                </p>
-                <p><strong>Douglas Crockford</strong>, seen here<br/>teaching JavaScript Patterns
-                </p>
-            </div>
-            <!-- <a class="cta" href="#"><img src="/Images/btn_agenda-mobile.png" class="responsive" alt="See the agenda"/></a> -->
-        </aside>
-    </section>
-
-
-
-
-
-    <section class="standardCarousel">
-        <ul>
-
-                    <li><img src="images/13b9d.jpg"/></li>
-                    <li><img src="images/23b9d.jpg"/></li>
-                    <li><img src="images/33b9d.jpg"/></li>
-                    <li><img src="images/43b9d.jpg"/></li>
-                    <li><img src="images/53b9d.jpg"/></li>
-                    <li><img src="images/63b9d.jpg"/></li>
-                    <li><img src="images/73b9d.jpg"/></li>
-
-        </ul>
-    </section>
-
-</div>
-
-
-
-
-<div class="sponsorBottomBar">
-
-    <h1>SPONSORS List</h1>
-
-
-
-<div class="sponsorBottom">
-
-                   <h2></h2>
-
-                    <ul>
-                                <li>
-                                    <a href="https://developer.ibm.com/code/patterns/" 
-                                       onclick='javascript:pageTracker._trackPageview("/outbound/Sponsor-IBM-BottomBar"); '
-                                       target="_blank">
-
-                                        <img class="sponsorBottomBarImage"
-                                             src="images/20171013221654-902deaf.png" 
-                                             width="70" height="70"
-                                             alt="IBM"/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://startupproduct.com/" 
-                                       onclick='javascript:pageTracker._trackPageview("/outbound/Sponsor-Startup Product Academy-BottomBar"); '
-                                       target="_blank">
-
-                                        <img class="sponsorBottomBarImage"
-                                             src="images/20140509205849-906deaf.png" 
-                                             width="70" height="70"
-                                             alt="Startup Product Academy"/>
-                                    </a>
-                                </li>
-                    </ul>
-                </div>
-
-
-    
-</div>
-
-
-
-<footer id="footer" class="mainFooter hideOnSmallScreen">
-    <div class="footerWrap">
-        <div class="creditsWrap">
-            <p>Code Stars Summit, Silicon Valley Code Camp, AngularU (tm) are trademarks of 73rd Street Associates (Copyright &copy; 2018)</p>
-            <p>Site Built with ASP.NET, WebAPI, React, and more by <a href="http://peterkellner.net/" target="_blank">PeterKellner.net</a></p>
-        </div>
-        <div class="linksWrap">
-            <ul>
-                
-                
-                
-                <li><a href="mailTo:false@codestarssummit.com">CONTACT</a></li>
-                
-
-                
-            </ul>
-        </div>
-    </div>
-</footer>
-<!-- #footer -->
-
-</div>
-
-<script src="images/jquery.bxslider.min.js"></script>
-<script src="images/jquery.validate.min.js"></script>
-<script src="images/jquery.validate.unobtrusive.min.js"></script>
-<script src="images/tappize.min.js"></script>
-<script src="images/main-cssc.js"></script>
-
-
-
-
-
-
-    
+<br/></p></div></div><figure class="photo rv" style="--i:2"><img src="images/crockfordteaching2013ff0d.jpg" alt="" loading="lazy"><figcaption><b>“The Best From Silicon Valley<br/>Code Camp”</b><strong>Douglas Crockford</strong>, seen here<br/>teaching JavaScript Patterns</figcaption></figure></div></section>
+<section style="padding-block:0 clamp(48px,7vw,96px)"><div class="marquee" aria-label="Event photos"><div class="track"><img src="images/13b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/23b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/33b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/43b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/53b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/63b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/73b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/13b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/23b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/33b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/43b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/53b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/63b9d.jpg" alt="Code Camp event photo" loading="lazy"><img src="images/73b9d.jpg" alt="Code Camp event photo" loading="lazy"></div></div></section>
+</main>
+<footer><div class="wrap">
+  <div class="closing"><b>Thank you to everyone who taught and attended.</b><p>Code Stars Summit was part of <a href="http://www.siliconvalley-codecamp.com/" target="_blank" rel="noopener">Silicon Valley Code Camp</a>. There are no future events planned.</p></div>
+  <p>Code Stars Summit, Silicon Valley Code Camp, AngularU (tm) are trademarks of 73rd Street Associates (Copyright &copy; <span data-year>2026</span>)</p>
+  <p>Site built with ASP.NET, WebAPI, React, and more by <a href="http://peterkellner.net/" target="_blank" rel="noopener">PeterKellner.net</a> &middot; <a href="mailto:announcements@codestarssummit.com">announcements@codestarssummit.com</a></p>
+  <div class="social"><a href="http://www.facebook.com/group.php?gid=6125701762" target="_blank" rel="noopener">Facebook</a><a href="http://twitter.com/sv_code_camp" target="_blank" rel="noopener">Twitter</a><a href="http://www.youtube.com/results?search_query=silicon+valley+code+camp&amp;sm=3" target="_blank" rel="noopener">YouTube</a><a href="http://www.linkedin.com/groups?gid=976557&amp;trk=myg_ugrp_ovr" target="_blank" rel="noopener">LinkedIn</a></div>
+</div></footer>
 </body>
-
-
-
-<!-- codestarssummit.com/Event/2014fall 15:59:31))T -->
 </html>

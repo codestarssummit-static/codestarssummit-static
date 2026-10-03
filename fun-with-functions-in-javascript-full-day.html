@@ -1,475 +1,57 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html class="ie8" lang="en"> <![endif]-->
-<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!-->
 <html lang="en">
-<!--<![endif]-->
-  
-<!-- codestarssummit.com/workshop/2014/fun-with-functions-in-javascript-full-day 16:00:13))T -->
-<!--  --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- / -->
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Code Stars Summit Workshop:Fun with Functions in JavaScript (Full Day)</title>
-    <script>
-      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-    </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fun with Functions in JavaScript (Full Day) · Code Stars Summit</title>
+<meta name="description" content="This one day hands-on workshop is about using functions and thinking with functions to take your JavaScript use to another level. This workshop will challenge you to do better and think differently. A">
+<meta name="theme-color" content="#07080f">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
+<link rel="stylesheet" href="assets/cs.css">
+<script src="assets/cs.js" defer></script>
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top" id="top"><div class="wrap">
+  <a class="logo" href="index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l3 8.2L24 12l-9 3.8L12 24l-3-8.2L0 12l9-3.8z"/></svg>Code Stars Summit</a>
+  <nav aria-label="Main">
+    <a href="index.html">Home</a>
+    <div class="dd"><button type="button" aria-haspopup="true" aria-expanded="false">About ▾</button>
+      <div class="menu"><a href="pastevents.html">Past Events</a><a href="faq.html">FAQ</a><a href="codestarssummitterms.html">Terms Of Service</a></div></div>
+  </nav>
+</div></header>
+<main id="main">
+<div class="wrap">
+  <a class="crumb" id="back" href="index.html#presenters">&larr; All workshops</a>
+  <div class="d-hero">
+    <div class="aurora" style="opacity:.6"></div>
+    <span class="tag">Friday 3/28 9to5 (All Day)</span>
+    <h1 style="view-transition-name:t-fun-with-functions-in-javascript-full-day">Fun with Functions in JavaScript (Full Day)</h1>
+    <div class="d-who"><div class="faces" style="view-transition-name:f-fun-with-functions-in-javascript-full-day"><img src="images/20131213212414-11244484.jpg" alt="Douglas Crockford" width="64" height="64"></div><div><strong>Douglas Crockford</strong><div class="mono">Workshop leader</div></div></div>
+  </div>
+  <div class="stack">
+    <div class="panel rv"><h2>Workshop detail</h2><div class="rich"><p>This one day hands-on workshop is about using functions and thinking with functions to take your JavaScript use to another level. This workshop will challenge you to do better and think differently. Are you game?</p>
 
-    <!--[if lt IE 9]>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
-    <![endif]-->
-   
-
-
-      
-      <link href="images/site-cssc-relative.css" rel="stylesheet" />
-    
-
-    <script src="images/jquery-1.10.1.min.js"></script>
-    <script src="images/jquery-migrate-1.2.1.min.js"></script>
-    <!--[if lt IE 9]>
-        <script src="/Content/JavaScript/html5shiv-printshiv.min.js"></script>
-    <![endif]-->
-  </head>
-
-<body class="cssc-page">
-
-<div class="layoutWrapper">
-
-    <header class="pageHeader">
-
-        <a href="index.html#" class="siteLogo">Code Stars Summit<span class="ir"></span></a>
-        <span class="eventDate">FEBRUARY OR MARCH 2014 <br/>, </span>
-        
-        <ul class="socialMedia">
-            <li><a class="fb" target="" href="http://www.facebook.com/group.php?gid=6125701762">FaceBook</a></li>
-            <li><a class="tw" target='_new' href="http://twitter.com/sv_code_camp">Twitter</a></li>
-            <li><a class="yt" target='_new' href="http://www.youtube.com/results?search_query=silicon+valley+code+camp&amp;sm=3">YouTube</a></li>
-            <li><a class="gplus" target='_new' href="https://plus.google.com/110656351842726857531?prsrc=3">Google+</a></li>
-            <li><a class="in" target='_new' href="http://www.linkedin.com/groups?gid=976557&amp;trk=myg_ugrp_ovr">LinkedIn</a></li>
-        </ul>
-
-        <div class="menuUserBar">
-
-
-<div class="menuWrap">
-    <ul class="menuList">
-                <li class="menuListItem home">
-                    <a href="home.html#" target="_blank" class="menuItemLink">Home</a>
-                </li>
-
-            <li class="menuListItem pricing">
-                <a href="pricing.html">Price & Registration</a>
-                
-
-            </li>
-
-
-
-
-
-
-
-
-        
-
-
-
-
-            <li class="menuListItem about">
-                <a href="#" class="menuItemLink" aria-haspopup="true">About</a>
-                <ul class="menuSubList">
-
-
-                    <li>
-                        <a href="pastevents.html#">Past Events</a>
-                    </li>
-
-                    <li>
-                        <a href="faq.html#">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="codestarssummitterms.html#">Terms Of Service</a>
-                    </li>
-
-                        <li>
-                            <a href="meetup.html">Meetup</a>
-                        </li>
-                        <li>
-                            <a href="index-2.html">Code of Conduct</a>
-                        </li>
-
-                </ul>
-
-
-
-
-            </li>
-    </ul>
-</div>
-
-        </div>
-
-    </header>
-
-    
-
-
-<link href="images/addcalevent.css" rel="stylesheet" />
-<script src="images/addcaleventzones.js"></script>
-<script src="images/addcalevent.js"></script>
-
-
-
-
-<section class="pageContent">
-
-   
-
-    <h2 class="purpleRibbon">Workshop Detail</h2>
-
-        <section class="workshopInfo">
-            <h2>Fun with Functions in JavaScript (Full Day)</h2>
-
-            <section class="meta">
-                
-
-                <span class="tag clock"><i>Friday 3/28 9to5 (All Day)</i></span>
-             
-                
-
-               
-            </section>
-
-            <section class="presentationBox">
-                <span><a class="addtocalendar">ADD TO CALENDAR...</a></span>
-
-                
-                
-
-
-
-
-
-
-                
-
-                
-                <p>This one day hands-on workshop is about using functions and thinking with functions to take your JavaScript use to another level. This workshop will challenge you to do better and think differently. Are you game?</p>
-
-
-                    <a href="fun-with-functions-in-javascript-full-day-2.html" target="_blank">
-                        <p>
-                            <span class="btn"><i>REGISTER</i></span>
-                        </p>
-                    </a>
-
-                <div class="collapsible">
-
-
-
-
-
-                    
 
 <p><strong>WHAT WILL YOU LEARN</strong></p>
-
 <p>Through a graduated series of problems, your knowledge of what is possible with Javascript will grow exponentially.</p>
-
 <p><strong>WHO SHOULD ATTEND</strong></p>
-
 <p>Developers, Operations Engineers and Testers and anyone wanting to increase their skill in functions and JavaScript.</p>
-
-<br />
-
-<hr />
-
-<br />
-
-
-<p><b>This is a BYOL (Bring Your Own Laptop) workshop</b> </p>
-
-                    
-                </div>
-
-            </section>
-
-        </section>
-        <section class="workshopLeader">
-            <h2>Leaders</h2>
-            <div class="inner">
-
-                
-
-
-
-                    <div class="leader">
-                        <div class="leftColumn">
-                            <img class="leaderPhoto" src="images/20131213212414-11244484.jpg" alt="Douglas Crockford"/>
-                            <p class="leaderName">Douglas Crockford</p>
-
-
-                            <p class="leaderURL"><a href="http://crockford.com/">crockford.com</a>
-                            </p>
-                        </div>
-
-                        <div class="rightColumn">
-                            <h3>Douglas Crockford</h3>
-                            <div>Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.</div>
-                            
-                        </div>
-                    </div>
-
-            </div>
-        </section>
-        <section class="proctors">
-        </section>
-</section>
-
-
-
-
-
-
-<div class="sponsorBottomBar">
-
-    <h1>SPONSORS List</h1>
-
-
-
-<div class="sponsorBottom">
-
-                   <h2></h2>
-
-                    <ul>
-                                <li>
-                                    <a href="http://www.microsoft.com/" 
-                                       onclick='javascript:pageTracker._trackPageview("/outbound/Sponsor-Microsoft-BottomBar"); '
-                                       target="_blank">
-
-                                        <img class="sponsorBottomBarImage"
-                                             src="images/20170825035014-747deaf.png" 
-                                             width="70" height="70"
-                                             alt="Microsoft"/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://tools.grapecity.com/?utm_source=SVCodeCamp%20Code%20Camp&amp;utm_medium=logo%20hyperlink&amp;utm_campaign=Tools.GrapeCity" 
-                                       onclick='javascript:pageTracker._trackPageview("/outbound/Sponsor-GrapeCity-BottomBar"); '
-                                       target="_blank">
-
-                                        <img class="sponsorBottomBarImage"
-                                             src="images/20170921154147-728deaf.png" 
-                                             width="70" height="70"
-                                             alt="GrapeCity"/>
-                                    </a>
-                                </li>
-                    </ul>
-                </div>
-<div class="sponsorBottom">
-
-                   <h2></h2>
-
-                    <ul>
-                                <li>
-                                    <a href="http://citizenspace.us/" 
-                                       onclick='javascript:pageTracker._trackPageview("/outbound/Sponsor-Citizen Space-BottomBar"); '
-                                       target="_blank">
-
-                                        <img class="sponsorBottomBarImage"
-                                             src="images/20130804234752-805deaf.png" 
-                                             width="70" height="70"
-                                             alt="Citizen Space"/>
-                                    </a>
-                                </li>
-                    </ul>
-                </div>
-
-
-    
-        <div class="sponsorBottom">
-            <h2>Meetup Partners</h2>
-            <ul>
-                            <li>
-                                <a href="https://www.meetup.com/sf-DevOps/" 
-                                   onclick='javascript:pageTracker._trackPageview("/outbound/Meetup-SF DevOps-bottombar"); ' 
-                                   target="_blank">
-
-                                    
-                                 
-                                    
-                                    
-                                    
-
-                                    <img class="sponsorBottomBarImage" 
-                                         src="http://secure.meetupstatic.com/images/600_366187432.jpg" 
-                                         width="70" 
-                                         alt="SF DevOps"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meetup.com/The-San-Francisco-ExtJS-Meetup-Group/" 
-                                   onclick='javascript:pageTracker._trackPageview("/outbound/Meetup-The San Francisco Bay Area Sencha/ExtJS Meetup Group-bottombar"); ' 
-                                   target="_blank">
-
-                                    
-                                 
-                                    
-                                    
-                                    
-
-                                    <img class="sponsorBottomBarImage" 
-                                         src="http://secure.meetupstatic.com/images/600_346668332.jpg" 
-                                         width="70" 
-                                         alt="The San Francisco Bay Area Sencha/ExtJS Meetup Group"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meetup.com/sfnodejs/" 
-                                   onclick='javascript:pageTracker._trackPageview("/outbound/Meetup-SF Node.js-bottombar"); ' 
-                                   target="_blank">
-
-                                    
-                                 
-                                    
-                                    
-                                    
-
-                                    <img class="sponsorBottomBarImage" 
-                                         src="http://secure.meetupstatic.com/images/600_107207052.jpg" 
-                                         width="70" 
-                                         alt="SF Node.js"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meetup.com/startupaddicts/" 
-                                   onclick='javascript:pageTracker._trackPageview("/outbound/Meetup-Startup Addicts SF-bottombar"); ' 
-                                   target="_blank">
-
-                                    
-                                 
-                                    
-                                    
-                                    
-
-                                    <img class="sponsorBottomBarImage" 
-                                         src="http://secure.meetupstatic.com/images/600_457039791.jpg" 
-                                         width="70" 
-                                         alt="Startup Addicts SF"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meetup.com/sfwearables/" 
-                                   onclick='javascript:pageTracker._trackPageview("/outbound/Meetup-SF WEARABLES-bottombar"); ' 
-                                   target="_blank">
-
-                                    
-                                 
-                                    
-                                    
-                                    
-
-                                    <img class="sponsorBottomBarImage" 
-                                         src="http://secure.meetupstatic.com/images/600_347820852.jpg" 
-                                         width="70" 
-                                         alt="SF WEARABLES"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.meetup.com/leanux/" 
-                                   onclick='javascript:pageTracker._trackPageview("/outbound/Meetup-The Lean UX Academy-bottombar"); ' 
-                                   target="_blank">
-
-                                    
-                                 
-                                    
-                                    
-                                    
-
-                                    <img class="sponsorBottomBarImage" 
-                                         src="600_387846642-2.html" 
-                                         width="70" 
-                                         alt="The Lean UX Academy"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meetup.com/lyfted/" 
-                                   onclick='javascript:pageTracker._trackPageview("/outbound/Meetup-Lyfted-bottombar"); ' 
-                                   target="_blank">
-
-                                    
-                                 
-                                    
-                                    
-                                    
-
-                                    <img class="sponsorBottomBarImage" 
-                                         src="http://secure.meetupstatic.com/images/600_443901835.jpg" 
-                                         width="70" 
-                                         alt="Lyfted"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.meetup.com/sj-DevOps/" 
-                                   onclick='javascript:pageTracker._trackPageview("/outbound/Meetup-sj-DevOps-bottombar"); ' 
-                                   target="_blank">
-
-                                    
-                                 
-                                    
-                                    
-                                    
-
-                                    <img class="sponsorBottomBarImage" 
-                                         src="600_367564282-2.html" 
-                                         width="70" 
-                                         alt="sj-DevOps"/>
-                                </a>
-                            </li>
-            </ul>
-        </div>
+<br/>
+<hr/>
+<br/>
+<p><b>This is a BYOL (Bring Your Own Laptop) workshop</b> </p></div></div>
+    <div class="panel rv"><div class="leader-card"><img src="images/20131213212414-11244484.jpg" alt="Douglas Crockford" width="96" height="96"><div><h3>Douglas Crockford</h3><a class="url" href="http://crockford.com/" target="_blank" rel="noopener">crockford.com</a><div class="rich">Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.</div></div></div></div>
+  </div>
 </div>
-
-
-
-<footer id="footer" class="mainFooter hideOnSmallScreen">
-    <div class="footerWrap">
-        <div class="creditsWrap">
-            <p>Code Stars Summit, Silicon Valley Code Camp, AngularU (tm) are trademarks of 73rd Street Associates (Copyright &copy; 2018)</p>
-            <p>Site Built with ASP.NET, WebAPI, React, and more by <a href="http://peterkellner.net/" target="_blank">PeterKellner.net</a></p>
-        </div>
-        <div class="linksWrap">
-            <ul>
-                
-                
-                
-                <li><a href="mailTo:announcements@codestarssummit.com">CONTACT</a></li>
-                
-
-                
-            </ul>
-        </div>
-    </div>
-</footer>
-<!-- #footer -->
-
-</div>
-
-<script src="images/jquery.bxslider.min.js"></script>
-<script src="images/jquery.validate.min.js"></script>
-<script src="images/jquery.validate.unobtrusive.min.js"></script>
-<script src="images/tappize.min.js"></script>
-<script src="images/main-cssc.js"></script>
-
-
-
-
-
-
-    
+</main>
+<footer><div class="wrap">
+  <div class="closing"><b>Thank you to everyone who taught and attended.</b><p>Code Stars Summit was part of <a href="http://www.siliconvalley-codecamp.com/" target="_blank" rel="noopener">Silicon Valley Code Camp</a>. There are no future events planned.</p></div>
+  <p>Code Stars Summit, Silicon Valley Code Camp, AngularU (tm) are trademarks of 73rd Street Associates (Copyright &copy; <span data-year>2026</span>)</p>
+  <p>Site built with ASP.NET, WebAPI, React, and more by <a href="http://peterkellner.net/" target="_blank" rel="noopener">PeterKellner.net</a> &middot; <a href="mailto:announcements@codestarssummit.com">announcements@codestarssummit.com</a></p>
+  <div class="social"><a href="http://www.facebook.com/group.php?gid=6125701762" target="_blank" rel="noopener">Facebook</a><a href="http://twitter.com/sv_code_camp" target="_blank" rel="noopener">Twitter</a><a href="http://www.youtube.com/results?search_query=silicon+valley+code+camp&amp;sm=3" target="_blank" rel="noopener">YouTube</a><a href="http://www.linkedin.com/groups?gid=976557&amp;trk=myg_ugrp_ovr" target="_blank" rel="noopener">LinkedIn</a></div>
+</div></footer>
 </body>
-
-
-
-<!-- codestarssummit.com/workshop/2014/fun-with-functions-in-javascript-full-day 16:00:14))T -->
 </html>
