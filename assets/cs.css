@@ -213,3 +213,5 @@ footer .social a{font-size:13px}
 .hero .lead{max-width:60ch}
 @media (max-width:600px){.leader-card{flex-direction:column}}
 @media (max-width:600px){.hero h1 .ln{overflow:visible;padding-bottom:0}.hero h1 .ln span{display:inline;animation:none}.hero h1{line-height:1.08}}
+html,body{overflow-x:clip}
+.hero,.d-hero{overflow-x:clip}
